@@ -77,19 +77,158 @@
 // indexOf(str, char);
 
 // Task 6:
-function delVowel(txt) {
-  for (i = 0; i < txt.length; i++) {
-    if (
-      txt[i] == "a" ||
-      txt[i] == "e" ||
-      txt[i] == "i" ||
-      txt[i] == "o" ||
-      txt[i] == "u"
-    ) {
-      txt.replace(txt[i], ",");
-    }
-  }
-  alert(txt);
+//    KARNA  HA
+// function delVowel(txt) {
+//   for (i = 0; i < txt.length; i++) {
+//     if (
+//       txt[i] == "a" ||
+//       txt[i] == "e" ||
+//       txt[i] == "i" ||
+//       txt[i] == "o" ||
+//       txt[i] == "u"
+//     ) {
+//       txt.slice(txt[i]);
+//     }
+//   }
+//   alert(txt);
+// }
+// var txt = prompt("Enter a string");
+// delVowel(txt);
+
+// Task 7:
+//     KARNA   HA
+// function occu(ele) {
+//   switch (ele) {
+//     case "ae":
+//       alert("ae");
+//       break;
+//     case "ai":
+//       alert("ai");
+//       break;
+//     case "ao":
+//       alert("ao");
+//       break;
+//     case "au":
+//       alert("au");
+//       break;
+//     case "ea":
+//       alert("ea");
+//       break;
+//     case "ei":
+//       alert("ei");
+//       break;
+//     case "eo":
+//       alert("eo");
+//       break;
+//     case "eu":
+//       alert("eu");
+//       break;
+//     case "ia":
+//       alert("ia");
+//       break;
+//     case "ie":
+//       alert("ie");
+//       break;
+//     case "io":
+//       alert("io");
+//       break;
+//     case "iu":
+//       alert("iu");
+//       break;
+//     case "oa":
+//       alert("oa");
+//       break;
+//     case "oe":
+//       alert("oe");
+//       break;
+//     case "oi":
+//       alert("oi");
+//       break;
+//     case "ou":
+//       alert("ou");
+//       break;
+//     case "ua":
+//       alert("ua");
+//       break;
+//     case "ue":
+//       alert("ue");
+//       break;
+//     case "ui":
+//       alert("ui");
+//       break;
+//     case "uo":
+//       alert("uo");
+//       break;
+//     default:
+//       alert("Not found");
+//   }
+// }
+// var inp = prompt("Write a sentence");
+// for (i = 0; i < inp.length; i = i + 2) {
+//   var ele = inp.slice(0, i + 2);
+//   occu(ele);
+// }
+
+// Task 8:
+// function meter(kilo) {
+//   var metr = kilo * 1000;
+//   document.write(kilo + " Km = " + metr + " m" + "</br>");
+// }
+// function feet(kilo) {
+//   var fet = kilo * 3280;
+//   document.write(kilo + " Km = " + fet + " ft" + "</br>");
+// }
+// function inches(kilo) {
+//   var metr = kilo * 39370;
+//   document.write(kilo + " Km = " + metr + " in" + "</br>");
+// }
+// function centiM(kilo) {
+//   var metr = kilo * 100000;
+//   document.write(kilo + " Km = " + metr + " cm" + "</br>");
+// }
+// var kilo = +prompt("Enter the distance in kilometer");
+// meter(kilo);
+// feet(kilo);
+// inches(kilo);
+// centiM(kilo);
+
+// Task 9:
+// function overTime(hr){
+//     var pay = hr *12
+//     alert(pay+" Rs is your overtime pay")
+// }
+// var hr = +prompt("Enter the extra hours")
+// overTime(hr)
+
+// Task 10:
+// var withDraw = +prompt("Enter the amount");
+// var _100 = parseInt(withDraw / 100);
+// withDraw = withDraw - _100 * 100;
+// var _50 = parseInt(withDraw / 50);
+// withDraw = withDraw - _50 * 50;
+// var _10 = parseInt(withDraw / 10);
+// document.write(
+//   "You will have " +
+//     _100 +
+//     " hundred notes " +
+//     _50 +
+//     " fifty notes and " +
+//     _10 +
+//     " ten notes."
+// );
+
+// CHAPTER # 43 - 48
+
+// Task 1: ( In HTML )
+// Task 2: ( In HTML )
+
+// Task 3:
+// function del(id) {
+//   var tr = document.getElementById(id);
+//   tr.remove(tr);
+// }
+
+// Task 4:
+function img(){
+    
 }
-var txt = prompt("Enter a string");
-delVowel(txt);
