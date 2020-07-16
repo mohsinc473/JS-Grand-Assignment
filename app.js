@@ -50,11 +50,11 @@
 //   aver = aver.toFixed(2);
 //   var percen = percentage(subj1, subj2, subj3);
 //   percen = percen.toFixed(2);
-//   document.write("Computer || " + subj1 + "</br>");
-//   document.write("English || " + subj2 + "</br>");
-//   document.write("Probility || " + subj3 + "</br>");
-//   document.write("Percentage - " + percen + "%" + "</br>");
-//   document.write("Average - " + aver + "</br>");
+//   document.console("Computer || " + subj1 + "</br>");
+//   document.console("English || " + subj2 + "</br>");
+//   document.console("Probility || " + subj3 + "</br>");
+//   document.console("Percentage - " + percen + "%" + "</br>");
+//   document.console("Average - " + aver + "</br>");
 // }
 // var subj1 = +prompt("Enter your marks");
 // var subj2 = +prompt("Enter your marks");
@@ -163,7 +163,7 @@
 //       alert("Not found");
 //   }
 // }
-// var inp = prompt("Write a sentence");
+// var inp = prompt("console a sentence");
 // for (i = 0; i < inp.length; i = i + 2) {
 //   var ele = inp.slice(0, i + 2);
 //   occu(ele);
@@ -172,19 +172,19 @@
 // Task 8:
 // function meter(kilo) {
 //   var metr = kilo * 1000;
-//   document.write(kilo + " Km = " + metr + " m" + "</br>");
+//   document.console(kilo + " Km = " + metr + " m" + "</br>");
 // }
 // function feet(kilo) {
 //   var fet = kilo * 3280;
-//   document.write(kilo + " Km = " + fet + " ft" + "</br>");
+//   document.console(kilo + " Km = " + fet + " ft" + "</br>");
 // }
 // function inches(kilo) {
 //   var metr = kilo * 39370;
-//   document.write(kilo + " Km = " + metr + " in" + "</br>");
+//   document.console(kilo + " Km = " + metr + " in" + "</br>");
 // }
 // function centiM(kilo) {
 //   var metr = kilo * 100000;
-//   document.write(kilo + " Km = " + metr + " cm" + "</br>");
+//   document.console(kilo + " Km = " + metr + " cm" + "</br>");
 // }
 // var kilo = +prompt("Enter the distance in kilometer");
 // meter(kilo);
@@ -207,7 +207,7 @@
 // var _50 = parseInt(withDraw / 50);
 // withDraw = withDraw - _50 * 50;
 // var _10 = parseInt(withDraw / 10);
-// document.write(
+// document.console(
 //   "You will have " +
 //     _100 +
 //     " hundred notes " +
@@ -229,6 +229,69 @@
 // }
 
 // Task 4:
-function img(){
-    
-}
+// function change(){
+//     var imgCar = document.getElementById("carimg")
+//     imgCar.src = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-model-s-1563301327.jpg"
+// }
+// function org(){
+//     var imgOr = document.getElementById("carimg")
+//     imgOr.src = "https://www.jamesedition.com/stories/wp-content/uploads/2018/02/8f35ba26fe296e36b3a96ee5416259b4.jpg"
+// }
+
+// Task 5:
+// var a = 0;
+// function inc(){
+//     var incr = document.getElementById("count")
+//     incr.value = ++a;
+// }
+// function dec(){
+//     var decr = document.getElementById("count")
+//     decr.value = --a;
+// }
+
+//  CHAPTER # 49 - 52
+
+// Task 1:
+// function signup() {
+//   var name = document.getElementById("name");
+//   var fname = document.getElementById("fname");
+//   var DOB = document.getElementById("DOB");
+//   document.write("Name: " + name.value + "</br>");
+//   document.write("Father Name: " + fname.value + "</br>");
+//   document.write("Date of Birth: " + DOB.value + "</br>");
+// }
+
+// Task 2:
+// function show(){
+//     var para = document.getElementById("para")
+//     para.innerHTML = "Slow lorises are a group of several species of strepsirrhine primates which make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration patterns that are species-dependent. The hands and feet of slow lorises have several adaptations that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow lorises have a toxic bite, a rare trait among mammals."
+// }
+
+// Task 3:
+// function dele(selId) {
+//   document.getElementById(selId).remove();
+// }
+// function edit1() {
+//   var name1 = document.getElementById("name1").value;
+//   var fname1 = document.getElementById("fname1").value;
+//   var DOB1 = document.getElementById("DOB1").value;
+//   var email1 = document.getElementById("email1").value;
+
+//   document.write("Student-1 Details: " + "</br>");
+//   document.write("Name: " + name1 + "</br>");
+//   document.write("Father Name: " + fname1 + "</br>");
+//   document.write("Date of Birth: " + DOB1 + "</br>");
+//   document.write("E-mail: " + email1 + "</br>");
+// }
+// function edit2() {
+//   var name2 = document.getElementById("name2").value;
+//   var fname2 = document.getElementById("fname2").value;
+//   var DOB2 = document.getElementById("DOB2").value;
+//   var email2 = document.getElementById("email2").value;
+
+//   document.write("Student-2 Details: " + "</br>");
+//   document.write("Name: " + name2 + "</br>");
+//   document.write("Father Name: " + fname2 + "</br>");
+//   document.write("Date of Birth: " + DOB2 + "</br>");
+//   document.write("E-mail: " + email2 + "</br>");
+// }
