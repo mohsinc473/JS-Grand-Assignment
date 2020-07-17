@@ -295,3 +295,57 @@
 //   document.write("Date of Birth: " + DOB2 + "</br>");
 //   document.write("E-mail: " + email2 + "</br>");
 // }
+
+//  CHAPTER # 58 - 67
+
+// Task 1:
+// i-)
+// var parentID = document.getElementById("main-content");
+// ii-)
+// var Child = parentID.childNodes;
+// for (i = 1; i < Child.length; i = i + 2) {
+//   console.log(Child[i]);
+// }
+// iii-)
+// var element = document.getElementsByClassName("render");
+// for (i = 0; i < element.length; i++) {
+//   document.write(element[i].innerHTML + "</br>");
+// }
+// iv-)
+// var name = "Mohsin";
+// document.getElementById("first-name").value = name;
+// alert(name);
+// v-)
+// var lastName = "Arif";
+// var email = "mohsinsheikh473@gmail.com";
+// document.getElementById("last-name").value = lastName;
+// document.getElementById("email").value = email;
+// alert(lastName);
+// alert(email);
+
+// Task 2:
+// i-)
+// var nType = document.getElementById("form-content").nodeType;
+// document.write(nType+"</br>");
+// ii-)
+// var nType2 = document.getElementById("lastName").nodeType;
+// var chNode = document.getElementById("lastName").childNodes;
+// document.write(nType2+"</br>");
+// console.log(chNode+"</br>");
+// iii-)
+//  cannot replace childNode because their is no child of id "lastName"
+// iv-)
+// var parent = document.getElementById("main-content").firstChild;
+// var parent1 = document.getElementById("main-content").lastChild;
+// document.write(parent + "</br>");
+// document.write(parent1 + "</br>");
+// v-)
+// var fam = document.getElementById("lastName").nextSibling;
+// var fam1 = document.getElementById("lastName").previousSibling;
+// document.write(fam + "</br>");
+// document.write(fam1 + "</br>");
+// vi-)
+// var son = document.getElementById("email").parentNode;
+// var son1 = document.getElementById("email").nodeType;
+// document.write(son + "</br>");
+// document.write(son1 + "</br>");
