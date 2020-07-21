@@ -77,7 +77,6 @@
 // indexOf(str, char);
 
 // Task 6:
-//    KARNA  HA
 // function delVowel(txt) {
 //   for (i = 0; i < txt.length; i++) {
 //     if (
@@ -87,7 +86,7 @@
 //       txt[i] == "o" ||
 //       txt[i] == "u"
 //     ) {
-//       txt.slice(txt[i]);
+//       txt[i] = " ";
 //     }
 //   }
 //   alert(txt);
@@ -96,7 +95,6 @@
 // delVowel(txt);
 
 // Task 7:
-//     KARNA   HA
 // function occu(ele) {
 //   switch (ele) {
 //     case "ae":
@@ -295,6 +293,24 @@
 //   document.write("Date of Birth: " + DOB2 + "</br>");
 //   document.write("E-mail: " + email2 + "</br>");
 // }
+
+//  CHAPTER # 53 - 57
+
+// Task 1:
+function showimg(isrc) {
+  var mdl = document.getElementById("setimg");
+  mdl.src = isrc.src;
+}
+
+// Task 2:
+function zoom() {
+  var target = document.getElementById("fosize");
+  target.setAttribute("class", "zin");
+}
+function zoom1() {
+  var target = document.getElementById("fosize");
+  target.setAttribute("class", "zout");
+}
 
 //  CHAPTER # 58 - 67
 
